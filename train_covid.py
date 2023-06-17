@@ -225,7 +225,7 @@ def main():
             'classifiers. Make sure that datasets have been set up before '
             'running this script. See the README file for more information.')
     parser.add_argument('--dataset', dest='dataset', type=int, default=1, required=False,
-                        help='The dataset number on which to train. Choose "1" or "2" or "3".')
+                        help='The dataset number on which to train. Choose "1" or "2".')
     parser.add_argument('--seed', dest='seed', type=int, default=30493, required=False,
                         help='The random seed used to generate train/val/test splits')
     parser.add_argument('--network', dest='network', type=str, default='densenet121', required=False,
